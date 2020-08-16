@@ -31,4 +31,6 @@ android {
 dependencies {
     implementation "androidx.appcompat:appcompat:$rootProject.androidxVersion"
     implementation "com.google.android.material:material:$rootProject.materialVersion"
+    api 'com.kingja.loadsir:loadsir:1.3.6'
+    implementation 'com.airbnb.android:lottie:2.8.0'
 }

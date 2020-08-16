@@ -3,6 +3,8 @@
     package="com.example.webview">
 
     <application>
-        <activity android:name=".WebViewActivity" />
+<!--        让webview独立运行在一个进程-->
+        <activity android:name=".WebViewActivity"
+            android:process=":webwiewprocess"/>
     </application>
 </manifest>
